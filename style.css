@@ -1,0 +1,59 @@
+body {
+    margin:0;
+    padding:10%;
+}
+    
+h2,h4 {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+	padding: 10px 5px;
+}
+button {
+	padding: 11px 20px;
+	outline: none;
+	height: 100%;
+	border: none;
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+	font-weight: 700;
+	cursor: pointer;
+}
+.listform {
+    margin: 20px;
+}
+.container {
+    display:flexbox;
+    justify-content: center;
+}
+.item {
+    padding: 10px;
+    border-radius: 14px;
+    border: 10x;
+}
+.item p{
+    margin-top: 8px;
+    font-size: 14px;
+    color:crimson;
+    font-weight: 500;
+}
+.purchased {
+    text-decoration: line-through;
+    text-decoration-color:aqua;
+    text-decoration-thickness: 2px;
+}
+.item.check {
+    margin-top: 15px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.check label {
+    user-select: none;
+}
+.hidden {
+    display: none;
+}
